@@ -90,6 +90,10 @@ tr {
   color: white;
 }
 
+tr img {
+  width: 100px;
+}
+
 tbody tr:nth-child(odd) {
   background-color: #333333;
 }
