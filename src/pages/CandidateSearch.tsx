@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { searchGithub, searchGithubUser } from '../api/API';
+import { searchGithub } from '../api/API';
 
 interface Candidate {
   name?: string,
