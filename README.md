@@ -1,33 +1,42 @@
-# React + TypeScript + Vite
+  # Candidate-Search   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ## Description 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  Find new GitHub users to collaborate with by swiping through a deck of developers.
 
-Currently, two official plugins are available:
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Table of Contents
 
-## Expanding the ESLint configuration
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Dev](#dev)
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  ## Installation
 
-* Configure the top-level `parserOptions` property as follows:
+  Clone down the repo. Open root folder in terminal, install packages, and run the following command:
+  1. npm run dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  ## Usage
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+  Swipe through an endless stack of potential GitHub users, and browse through the users you've saved.
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ### Mock-Up
+  ![](screenshots/screenshot-1.jpg)
+  ![](screenshots/screenshot-2.jpg)
+
+  ## License
+  This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
+  
+
+  ## Dev
+
+  Try the deployed [application](https://candidate-search-olf6.onrender.com/).
+
+  Check out the [repo](https://github.com/michaelhdavies/candidate-search).
+
+  Developed by [Michael Henry Davies](https://github.com/michaelhdavies/).
+
+  [Back to Top](#description)
+  
+  
